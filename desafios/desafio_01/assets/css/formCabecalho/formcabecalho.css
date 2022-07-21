@@ -1,3 +1,10 @@
 .formCabecalho{
     text-align: center;
+    /* display: flex; */
 }
+
+.formCabecalho img {
+    height: 0.97rem;
+    width: 0.97rem;
+    margin: 2%;
+  }

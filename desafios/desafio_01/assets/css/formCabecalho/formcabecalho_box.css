@@ -1,8 +1,4 @@
 .formCabecalho__box{
     display: flex;
-}
-
-.icon {
-    
-    color: red;
+    width: 100%;
 }

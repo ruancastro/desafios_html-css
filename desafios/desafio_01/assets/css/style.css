@@ -1,7 +1,6 @@
 .body{
  font-family: 'Lexend Deca', sans-serif;
  /* font-family: 'Montserrat', sans-serif;  */
- 
 }
 
 html, body{
@@ -12,12 +11,33 @@ html, body{
     margin: 0 18rem;
 }
 
-.icon{
-    position: absolute;
-}
 
 .main{
     
     background: #F3F5F7;
     background-color: red;
+}
+
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    margin-top: 3.3rem;
+    margin-left: 2rem;
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 }
