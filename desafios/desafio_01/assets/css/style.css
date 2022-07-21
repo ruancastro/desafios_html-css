@@ -1,0 +1,23 @@
+.body{
+ font-family: 'Lexend Deca', sans-serif;
+ /* font-family: 'Montserrat', sans-serif;  */
+ 
+}
+
+html, body{
+    background: #f3f4f5;
+}
+
+.container{
+    margin: 0 18rem;
+}
+
+.icon{
+    position: absolute;
+}
+
+.main{
+    
+    background: #F3F5F7;
+    background-color: red;
+}

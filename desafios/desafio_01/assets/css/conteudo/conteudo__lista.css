@@ -1,0 +1,9 @@
+.conteudo__lista{
+    color: #717171;
+    display: flex;
+    font-family: 'Lexend Deca';
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    font-weight: 400;
+}

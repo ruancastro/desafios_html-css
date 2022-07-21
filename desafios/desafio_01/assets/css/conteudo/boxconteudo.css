@@ -1,0 +1,13 @@
+.boxconteudo{
+    margin-top: 2rem;
+    background: white;
+    padding: 1rem;
+}
+
+.boxconteudo:nth-child(1){
+    margin-top: 4rem;
+}
+
+.boxconteudo:last-child{
+    margin-bottom: 4rem;
+}
