@@ -12,11 +12,13 @@
 }
 
 @media screen and (min-width: 768px){
-    
+   
 }
 
 @media screen and (min-width: 992px){
-    
+    .cabecalho{
+        padding: 0rem;
+    }
 }
 
 @media screen and (min-width: 1200px){
