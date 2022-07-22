@@ -2,3 +2,10 @@
     font-family: 'Lexend Deca';
     color: #1A202C;
 }
+
+
+@media screen and (min-width: 1200px){
+    .conteudo__titulo{
+        font-size: 1.7rem;
+    }
+}

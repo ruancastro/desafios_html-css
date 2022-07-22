@@ -1,5 +1,38 @@
 .formCabecalho__box--icon{
-    height: 0.97rem;
-    width: 0.97rem;
-    margin: 2%; 
+  
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+@media screen and (min-width: 0){
+    .formCabecalho__box--icon{
+        margin: 3rem  1rem 0;
+        height: 0.97rem;
+        width: 0.97rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .formCabecalho__box--icon{
+        margin: 3.5rem  1rem 0;
+        height: 1rem;
+        width: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .formCabecalho__box--icon{
+        margin: 3.7rem  1rem 0;
+        height: 1.16rem;
+        width: 1.16rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .formCabecalho__box--icon{
+        margin: 3.8rem  1rem 0;
+        height: 1.2rem;
+        width: 1.2rem;
+    }
 }

@@ -1,7 +1,6 @@
 .formCabecalho__input{
   background: rgba(255, 255, 255, 0.2);
   border-radius: 5px ;
-  height: 4rem;
   padding: 2.5%;
   margin: 2.5rem 0 2rem 0 ;
   width: 100%;
@@ -11,11 +10,53 @@
 .formCabecalho__input::placeholder {
     color:#FFFFFF;
     /* margin-left: 2.75rem; */
-    padding-left: 2.5rem; 
     opacity: 0.5;
   }
 
-  .formCabecalho__box--icon{
-    position: absolute;
-    top:  2.9rem;
+  @media screen and (min-width: 0){
+    .formCabecalho__input{
+      height: 2rem;
+    }
+
+    .formCabecalho__input::placeholder{
+      padding-left: 2.5rem; 
+    }
+  }
+  
+  @media screen and (min-width: 768px){
+    .formCabecalho__input{
+      height: 3rem;
+    }
+
+    .formCabecalho__input::placeholder {
+      font-size: 1.07rem;
+    }
+
+    .formCabecalho__input::placeholder{
+      padding-left: 2.0rem; 
+    }
+  }
+  
+  @media screen and (min-width: 992px){
+    .formCabecalho__input{
+      height: 3.6rem;
+    }
+
+    .formCabecalho__input::placeholder {
+      font-size: 1.16rem;
+    }
+
+    .formCabecalho__input::placeholder{
+      padding-left: 1.7rem; 
+    }
+  }
+  
+  @media screen and (min-width: 1200px){
+    .formCabecalho__input{
+      height: 3.8rem;
+    }
+
+    .formCabecalho__input::placeholder {
+      font-size: 1.2rem;
+    }
   }
