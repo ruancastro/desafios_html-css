@@ -5,12 +5,17 @@
   padding: 2.5%;
   margin: 2.5rem 0 2rem 0 ;
   width: 100%;
-    
    
 }
 
 .formCabecalho__input::placeholder {
     color:#FFFFFF;
-    margin-left: 1.75rem;
+    /* margin-left: 2.75rem; */
+    padding-left: 2.5rem; 
     opacity: 0.5;
+  }
+
+  .formCabecalho__box--icon{
+    position: absolute;
+    top:  2.9rem;
   }
