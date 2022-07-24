@@ -1,0 +1,7 @@
+.cabecalho__titulo{
+    width: 100%;
+    background: var(--white);
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}

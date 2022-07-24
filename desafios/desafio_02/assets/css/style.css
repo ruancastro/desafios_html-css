@@ -1,0 +1,15 @@
+/* Variáveis das cores */
+
+:root {
+    --white: #F9F9F9;
+    --white-200: #EBE9EA;
+    --gray: #474747;
+    --black: #181818;
+}
+
+/* fontes para usar no site */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+html{
+    font-family: "Montserrat", sans-serif;
+}
