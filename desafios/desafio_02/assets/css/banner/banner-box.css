@@ -1,10 +1,25 @@
 .banner__box{
-    padding: 5rem 3rem;
+    
     text-align: justify;
     color: var(--white);
     font-weight: 600;
-    width: 40%;
     text-align: justify;
     line-height: 2rem
+}
+
+
+@media screen and (min-width: 0){
+    .banner__box{
+        padding: 3rem 3rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 900px){
+
 }
 

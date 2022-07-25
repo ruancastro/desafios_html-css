@@ -1,3 +1,17 @@
 .destaques__titulo{
     font-weight: 600;
 }
+
+@media screen and (min-width: 0){
+    .destaques__titulo{
+    margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 900px){
+
+}

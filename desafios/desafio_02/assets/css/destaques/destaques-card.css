@@ -1,3 +1,9 @@
 .destaques__grid--card{
    background: #EBE9EA;
 }
+
+.destaques__grid--image{   
+   width: auto;
+   height: auto;
+   
+}

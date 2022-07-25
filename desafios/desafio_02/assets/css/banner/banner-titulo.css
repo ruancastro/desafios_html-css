@@ -1,3 +1,17 @@
-.banner__box--titulo{
-   font-size: 1.75rem;
- }
+
+
+ @media screen and (min-width: 0){
+  .banner__box--titulo{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 900px){
+  .banner__box--titulo{
+    font-size: 1.75rem;
+  }
+}
