@@ -1,0 +1,10 @@
+.banner__box{
+    padding: 5rem 3rem;
+    text-align: justify;
+    color: var(--white);
+    font-weight: 600;
+    width: 40%;
+    text-align: justify;
+    line-height: 2rem
+}
+
