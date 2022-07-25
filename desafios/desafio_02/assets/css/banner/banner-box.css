@@ -4,22 +4,26 @@
     color: var(--white);
     font-weight: 600;
     text-align: justify;
-    line-height: 2rem
+    line-height: 2rem;
+    padding: 3rem 3rem;
 }
 
 
 @media screen and (min-width: 0){
-    .banner__box{
-        padding: 3rem 3rem;
+    .banner__box{  
         width: 100%;
     }
 }
 
 @media screen and (min-width: 768px){
-
+    .banner__box{
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 900px){
-
+    .banner__box{
+        width: 40%;
+    }
 }
 
